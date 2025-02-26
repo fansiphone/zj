@@ -1,29 +1,29 @@
-proxies:
-    - name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.9MB/s"
+ proxies:
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 38.2MB/s"
+      password: amazonskr05
+      port: 443
+      server: 47.129.48.255
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 40.4MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.238.247.32
+      type: ss
+    - name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 15.4MB/s"
       network: ws
-      port: 80
-      server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-      servername: Join--E-L-i-V-2-R-A-Y.net
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: Join--E-L-i-V-2-R-A-Y.net
-        path: /channel
-    - name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 15.9MB/s"
-      network: ws
-      port: 2053
-      server: 104.20.237.11
-      servername: RAHAmoOz.Biz
+      port: 2087
+      server: 104.22.0.165
+      servername: RAHaMooZ.Biz
       tls: true
       type: vless
       uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
             Host: rahamooz.biz
-        path: /twNDLs7bPPsZMS5R?ed=2560#5737
-    - name: "\U0001F1F8\U0001F1EA SE 003 | ⬇️ 26.2MB/s"
+        path: /q3yhptfC29xEaOmR?ed=2560#5251
+    - name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 40.8MB/s"
       network: ws
       port: 443
       server: 104.25.168.67
@@ -35,93 +35,144 @@ proxies:
         headers:
             Host: rahamooz.biz
         path: /l7v3dH26pfSvX4yR?ed=2560#5109
-    - name: "\U0001F1F8\U0001F1EA SE 004 | ⬇️ 23.1MB/s"
-      network: ws
-      port: 2053
-      server: 104.18.170.228
-      servername: rAhaMOoZ.BIZ
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: rahamooz.biz
-        path: /LPKzuLUG70jgdoHe?ed=2560#6045
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 005 | ⬇️ 20.7MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 005 | ⬇️ 41.3MB/s"
       password: amazonskr05
       port: 443
       server: 3.112.1.95
       type: ss
-    - name: "\U0001F1E6\U0001F1EA AE 006 | ⬇️ 31.6MB/s"
-      network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560#13|SC_speednode_0049
-    - name: "\U0001F1F8\U0001F1EA SE 007 | ⬇️ 19.0MB/s"
+    - name: "\U0001F1E6\U0001F1FA AU 006 | ⬇️ 19.3MB/s"
       network: ws
       port: 2053
-      server: 104.24.13.130
-      servername: RAHAmOOz.BIz
+      server: 104.16.132.75
+      servername: RaHamOoZ.bIZ
       tls: true
       type: vless
       uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
             Host: rahamooz.biz
-        path: /SR1iujn8nXjAaLIm?ed=2560#5210
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 008 | ⬇️ 35.9MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.238.247.32
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 15.0MB/s"
+        path: /3nEamDdWmTFepvzN?ed=2560#6314
+    - name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 16.8MB/s"
+      network: ""
+      obfs: ""
+      obfsParam: ""
+      password: 7c147a1d-b576-422e-88c6-f0f45e0a3a7d
+      port: 8080
+      server: us4.youxuan.wiki
+      skipCertVerify: false
+      sni: us4.youxuan.wiki
+      tls: true
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 19.5MB/s"
+      network: ws
+      port: 2096
+      server: 104.21.25.38
+      servername: RaHAMooz.biZ
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /qGk7gDgD6S3fzObX?ed=2560#5610
+    - name: "\U0001F1EF\U0001F1F5 JP 009 | ⬇️ 15.6MB/s"
+      network: ws
+      port: 8443
+      server: 104.18.249.106
+      servername: raHAmooZ.BIz
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /4dIIONIMrGCLXM7t?ed=2560#6005
+    - name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 17.8MB/s"
+      network: ws
+      port: 2087
+      server: rahamooz.biz
+      servername: RahamoOZ.BiZ
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /7aM9XHWtIRdqKQYD?ed=2560#1064
+    - name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 34.8MB/s"
       network: ws
       port: 2053
+      server: 104.25.168.67
+      servername: rahAMooz.bIz
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /PZrc4Y3HlSLWPiIF?ed=2560#5111
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1F0 SK 012 | ⬇️ 32.6MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1 NL 013 | ⬇️ 20.4MB/s"
+      network: ws
+      port: 2087
+      server: 104.18.249.106
+      servername: rAHAMOoZ.biZ
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /McwrprCCXAUnKvdX?ed=2560#6008
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 014 | ⬇️ 24.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.34.144.30
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 015 | ⬇️ 38.0MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.255.224.231
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 016 | ⬇️ 26.2MB/s"
+      network: ws
+      port: 2053
+      server: 104.18.249.106
+      servername: RaHAmoOZ.BIZ
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /nlezecICmNOAaUEr?ed=2560#6006
+    - name: "\U0001F1E9\U0001F1EA DE 017 | ⬇️ 34.2MB/s"
+      network: ws
+      port: 443
+      server: 172.67.222.153
+      servername: RAHAMOOZ.BIz
+      tls: true
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: rahamooz.biz
+        path: /7wMz7gDUfQZjdTwA?ed=2560#3712
+    - name: "\U0001F1FA\U0001F1F8 US 018 | ⬇️ 21.7MB/s"
+      network: ws
+      port: 443
       server: 104.22.0.165
-      servername: rAhaMooz.BIZ
+      servername: rAhAMooZ.bIZ
       tls: true
       type: vless
       uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
-            Host: rahamooz.biz
-        path: /1JFjVHmQqnazyRS9?ed=2560#5249
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 010 | ⬇️ 24.8MB/s"
-      password: amazonskr05
-      port: 443
-      server: 52.78.98.113
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 19.8MB/s"
-      network: ws
-      port: 443
-      server: 104.20.237.11
-      servername: rAHAMOoZ.bIz
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: rahamooz.biz
-        path: /7LSqUn90lGSywLoo?ed=2560#5733
-    - name: "\U0001F1EB\U0001F1F7 FR 012 | ⬇️ 20.0MB/s"
-      network: ws
-      port: 443
-      server: 172.66.47.156
-      servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-      tls: true
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: Www.OPensigNAL.COm.NAyNAY09.dYNV6.net
-        path: /#4339
