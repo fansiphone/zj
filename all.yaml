@@ -1,4 +1,160 @@
 proxies:
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 40.6MB/s"
+      password: 1P120c
+      port: 56001
+      server: 86585609.h2m5m5m7s3-fb-hk01.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 52.8MB/s"
+      password: 337f620e-3ed2-4be2-850f-659a93700be5
+      port: 12221
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz.redapricotcloud.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 003 | ⬇️ 36.5MB/s"
+      password: 1P120c
+      port: 56035
+      server: 86585609.o0p2h3c6e9-fb-jp05.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 37.4MB/s"
+      password: 1P120c
+      port: 56013
+      server: 86585609.e1m8h0s6c4-fb-hk13.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 22.5MB/s"
+      password: 1P120c
+      port: 56014
+      server: 86585609.j4o1v1d1m8-fb-hk14.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 54.0MB/s"
+      password: 1P120c
+      port: 56006
+      server: 86585609.l3x3b6j6c7-fb-hk06.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 007 | ⬇️ 27.5MB/s"
+      password: 1P120c
+      port: 56040
+      server: 86585609.l4a7m1t7o9-fb-jp10.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 37.8MB/s"
+      password: 1P120c
+      port: 56047
+      server: 86585609.l9x3y6g1c9-fb-sg07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FE MY 009 | ⬇️ 21.6MB/s"
+      password: 1P120c
+      port: 56069
+      server: 86585609.i7v2a9h4n2-fb-my04.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK 010 | ⬇️ 33.4MB/s"
+      password: 337f620e-3ed2-4be2-850f-659a93700be5
+      port: 12221
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz.redapricotcloud.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 011 | ⬇️ 21.7MB/s"
+      password: 1P120c
+      port: 56045
+      server: 86585609.v2c3p9i2y0-fb-sg05.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 23.5MB/s"
+      password: 337f620e-3ed2-4be2-850f-659a93700be5
+      port: 48291
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz1.redapricotcloud.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 25.1MB/s"
+      password: 1P120c
+      port: 56057
+      server: 86585609.l9o6m8o8g7-fb-us07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 014 | ⬇️ 32.6MB/s"
+      password: 1P120c
+      port: 56031
+      server: 86585609.u2k2b1y2y8-fb-jp01.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1F8\U0001F1EC SG 015 | ⬇️ 40.0MB/s"
+      password: 337f620e-3ed2-4be2-850f-659a93700be5
+      port: 18489
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz1.redapricotcloud.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 016 | ⬇️ 25.5MB/s"
+      password: 1P120c
+      port: 56050
+      server: 86585609.i6c5x1e2v0-fb-sg10.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 017 | ⬇️ 47.4MB/s"
+      password: 1P120c
+      port: 56009
+      server: 86585609.j9i1k1d2n6-fb-hk09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC TW 018 | ⬇️ 26.9MB/s"
+      password: 1P120c
+      port: 56022
+      server: 86585609.q5p4g2i9n8-fb-tw02.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 019 | ⬇️ 59.4MB/s"
+      password: 1P120c
+      port: 56004
+      server: 86585609.k7y6j1q5j7-fb-hk04.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP 020 | ⬇️ 53.8MB/s"
+      password: 337f620e-3ed2-4be2-850f-659a93700be5
+      port: 28713
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz1.redapricotcloud.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 021 | ⬇️ 47.1MB/s"
+      password: 1P120c
+      port: 56005
+      server: 86585609.t1v0e4l6w3-fb-hk05.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 022 | ⬇️ 60.9MB/s"
+      password: 1P120c
+      port: 56020
+      server: 86585609.q2q1r7t7i1-fb-hk20.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F
     - cipher: aes-128-gcm
       name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 47.4MB/s"
       password: 08d96d4a-d83e-4c14-9529-f00a63d25242
