@@ -177,6 +177,184 @@ proxies:
       port: 571
       server: cntwlayer1.labexit.xyz
       type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 24.1MB/s|0%|Netflix|Disney|Youtube"
+      port: 26012
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 22.8MB/s|0%|Disney|Openai|Gemini"
+      port: 26003
+      server: ppy-usv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 25.1MB/s|0%|Disney|Openai|Gemini"
+      port: 26002
+      server: ppy-usv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 22.6MB/s|0%|Netflix|Disney|Youtube"
+      port: 26013
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 29.5MB/s|0%|Netflix|Disney|Openai"
+      password: 71603f7a-203c-4fce-a114-3402629af231
+      port: 12053
+      server: cn2.cdn.xfltd-cdn.top
+      skip-cert-verify: true
+      sni: cdn.alibaba.com
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 26.2MB/s|59%|Youtube|Openai|Gemini"
+      port: 26110
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F300其他1-CN | ⬇️ 24.5MB/s|0%|Netflix|Youtube|Gemini"
+      port: 26122
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 24.1MB/s|40%|Youtube|Openai|Gemini"
+      port: 26078
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 24.1MB/s|0%|Netflix|Youtube|Openai|Gemini"
+      network: ws
+      port: "8880"
+      server: ip.sb
+      type: vless
+      udp: true
+      uuid: fc3055e5-1f1b-4f62-fde8-08823f8a87d1
+      ws-opts:
+        headers:
+            Host: sg.nfsn.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 26.8MB/s|0%|Disney|Openai|Gemini"
+      port: 26004
+      server: ppy-usv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 22.5MB/s|0%|Disney|Youtube|Openai|Gemini"
+      port: 26009
+      server: ppy-jpv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 22.7MB/s|27%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56039
+      server: 4d97a9b5.x9o3f2u7o5-fb-jp09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 23.3MB/s|25%|Disney|Youtube|Openai"
+      password: 1P120c
+      port: 56027
+      server: 4d97a9b5.b4s1f7b1f6-fb-tw07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 22.5MB/s|0%|Netflix|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56014
+      server: 4d97a9b5.j4o1v1d1m8-fb-hk14.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 29.2MB/s|13%|Netflix|Disney|Youtube|Openai"
+      password: 1P120c
+      port: 56049
+      server: 4d97a9b5.p0c1h3j5d6-fb-sg09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 28.5MB/s|25%|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56030
+      server: 4d97a9b5.e2l8i4d0s6-fb-tw10.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 27.4MB/s|13%|Netflix|Disney|Openai"
+      password: 1P120c
+      port: 56047
+      server: 4d97a9b5.l9x3y6g1c9-fb-sg07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 27.5MB/s|0%|Netflix|Disney|Youtube"
+      password: 1P120c
+      port: 56016
+      server: 4d97a9b5.b4c3y4i5k7-fb-hk16.6pzfwf.com
+      type: ss
+      udp: true
+    - name: "\U0001F1E6\U0001F1FA澳大利亚2 | ⬇️ 23.5MB/s|70%|Youtube|Openai|Gemini"
+      network: ws
+      port: "80"
+      server: 172.67.73.163
+      type: vless
+      udp: true
+      uuid: d9e161a5-4864-4a02-a62e-bc128a6c4147
+      ws-opts:
+        headers:
+            Host: rotTEN-MENU.oNeeat.cO.
+            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /?ed=2048
+      xudp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 1000 Mbps
+      name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 22.5MB/s|0%|Youtube"
+      port: 62003
+      server: 176.32.35.226
+      servername: apple.com
+      skip-cert-verify: true
+      type: hysteria
+      up: 1000 Mbps
+    - cipher: aes-128-gcm
+      name: "\U0001F1F9\U0001F1FC台湾3 | ⬇️ 34.3MB/s|0%|Disney|Youtube|Openai|Gemini"
+      password: 88430607-f080-4816-b2e5-1a47e193a057
+      port: 571
+      server: cntwlayer1.labexit.xyz
+      type: ss
     - client-fingerprint: chrome
       name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 37.0MB/s|0%|Netflix|Disney|Youtube|Openai"
       password: 3ba8cc9b-f30c-426b-84a8-878f02ae895d
