@@ -1,4 +1,234 @@
 proxies:
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 27.7MB/s|13%|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 26.9MB/s|0%|Netflix|Disney|Youtube"
+      port: 26012
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 24.6MB/s|0%|Netflix|Disney|Youtube"
+      port: 26013
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 26.2MB/s|59%|Youtube|Openai|Gemini"
+      port: 26110
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F300其他1-CN | ⬇️ 22.6MB/s|0%|Youtube|Gemini"
+      port: 26122
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 24.4MB/s|40%|Youtube|Openai|Gemini"
+      port: 26078
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 26.4MB/s|44%|Netflix|Disney"
+      password: qwerREWQ@@
+      port: 4857
+      server: 125.141.26.12
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 26.8MB/s|0%|Netflix|Disney|Youtube"
+      port: 26013
+      server: ppy-hkv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 22.8MB/s|0%|Netflix|Disney|Youtube"
+      port: 26010
+      server: ppy-hkv1.02ijp4uos1.download
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F300其他2-TH | ⬇️ 25.5MB/s|67%|Openai"
+      port: 26108
+      server: ppy-boardv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 22.3MB/s|Youtube|Openai"
+      port: 26112
+      server: ppy-boardv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 25.0MB/s|0%|Disney|Openai|Gemini"
+      port: 26002
+      server: ppy-usv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 23.9MB/s|0%|Disney|Youtube|Openai|Gemini"
+      port: 26006
+      server: ppy-jpv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 27.3MB/s|0%|Disney|Openai|Gemini"
+      port: 26004
+      server: ppy-usv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 27.2MB/s|0%|Disney|Openai|Gemini"
+      port: 26002
+      server: ppy-usv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 39.5MB/s|16%|Netflix|Disney|Openai"
+      password: 423cf642-6528-410c-b542-2aae04113d33
+      port: 11501
+      server: cdn-p1-hk.weibo-dns.com
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 27.7MB/s|0%|Disney|Openai"
+      password: 54231b3d-a39d-4769-a511-2a1c663a62b1
+      port: 443
+      server: sg01.trojanyyds.xyz
+      skip-cert-verify: true
+      sni: sg01.trojanyyds.xyz
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 26.4MB/s|Netflix|Disney|Youtube"
+      network: tcp
+      port: 26011
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 27.5MB/s|0%|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 26061
+      server: ppy-twv2.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 25.1MB/s|51%|Youtube|Openai"
+      port: 45072
+      server: haa.dashuai.cyou
+      type: vmess
+      udp: true
+      uuid: c739847e-c344-4a8c-93e0-3e9e3fc22af0
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 29.4MB/s|10%|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 17231
+      server: 09804b8f-suz340-sx19e8-gacy.cm5.p5pv.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 23.1MB/s|Netflix|Disney|Youtube"
+      port: 26010
+      server: ppy-hkv1.02ijp4uos1.download
+      tls: false
+      type: vmess
+      uuid: ffc323ce-efe2-3b60-a1d1-f4f5497bf2d7
+    - ip: 10.211.246.38
+      mtu: 1420
+      name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 28.1MB/s|0%|Netflix|Disney|Openai"
+      password: 54231b3d-a39d-4769-a511-2a1c663a62b1
+      port: 443
+      private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
+      public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
+      server: sg01.trojanyyds.xyz
+      servername: sg01.trojanyyds.xyz
+      sni: sg01.trojanyyds.xyz
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 34.7MB/s|10%|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 17233
+      server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+      servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 28.0MB/s|10%|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 17231
+      server: cd4bd325-suz340-sw0fy8-4c42.cm5.p5pv.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 1758c288-c39d-3d20-f34f-f4c62bc1d8d4
     - alterId: 0
       cipher: auto
       name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 24.1MB/s|0%|Netflix|Disney|Youtube"
