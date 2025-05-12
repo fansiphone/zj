@@ -1,6 +1,124 @@
 proxies:
     - down: ""
       fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 26.1MB/s|13%|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F300其他1-TH | ⬇️ 27.2MB/s|67%|Openai"
+      port: 26108
+      server: ppy-boardv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 24.4MB/s|Netflix|Disney|Youtube"
+      port: 26013
+      server: ppy-hkv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 24.5MB/s|0%|Disney|Openai|Gemini"
+      port: 26002
+      server: ppy-usv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 23.2MB/s|Youtube|Openai"
+      port: 26112
+      server: ppy-boardv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 27.4MB/s|0%|Disney|Openai|Gemini"
+      port: 26003
+      server: ppy-usv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 23.7MB/s|0%|Youtube|Openai|Gemini"
+      password: be323a17-9461-4b42-8028-1c8e1c9ff8dc
+      port: 7000
+      server: 216.250.97.138
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      delay: 541
+      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 31.3MB/s|0%|Netflix|Disney|Openai|Gemini"
+      password: a342d77b-16d0-4639-acb3-5ad01d090a63
+      port: 20010
+      server: 112.90.84.150
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 34.1MB/s|39%|Disney|Youtube|Openai|Gemini"
+      password: a5a53803-3e13-4616-a313-c5696c1810ff
+      port: "23001"
+      server: huojian.arken8379.com
+      skip-cert-verify: true
+      sni: www.bilibili.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 33.7MB/s|39%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: a5a53803-3e13-4616-a313-c5696c1810ff
+      port: "23002"
+      server: huojian.arken8379.com
+      skip-cert-verify: true
+      sni: www.bilibili.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 31.1MB/s|0%|Youtube"
+      password: fd57a4cf-7628-4354-b6f0-d0414928aba6
+      port: "49000"
+      server: hk90.cctv14.xyz
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 22.2MB/s|10%|Disney|Youtube|Openai"
+      network: tcp
+      port: 17233
+      server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+      ws-headers:
+        Host: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+      ws-path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 37.5MB/s|16%|Netflix|Disney|Openai"
+      network: ws
+      port: 80
+      server: 0b17b6cf-2c23-f38e-114f-8f1f3bcd06a3.castlepeakhospital.moe
+      tls: false
+      type: vmess
+      uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+      ws-opts:
+        headers:
+            Host: 0b17b6cf-2c23-f38e-114f-8f1f3bcd06a3.castlepeakhospital.moe
+        path: /
+    - down: ""
+      fingerprint: ""
       name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 27.7MB/s|13%|Youtube"
       obfs: ""
       obfs-password: ""
