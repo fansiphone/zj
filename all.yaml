@@ -1,6 +1,397 @@
 proxies:
     - down: ""
       fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 22.3MB/s|Netflix|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 20.0MB/s|Netflix|Disney|Youtube"
+      port: 26012
+      server: ppy-hkv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 37.2MB/s|Netflix|Disney|Youtube|Gemini"
+      password: asd123456
+      port: 8388
+      server: 103.36.91.32
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 22.2MB/s|Netflix|Youtube|Openai|Gemini"
+      port: 26110
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 20.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 26061
+      server: ppy-twv2.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 31.9MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56039
+      server: 4d97a9b5.x9o3f2u7o5-fb-jp09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 21.5MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56049
+      server: 4d97a9b5.p0c1h3j5d6-fb-sg09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 21.0MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56047
+      server: 4d97a9b5.l9x3y6g1c9-fb-sg07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 34.0MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56031"
+      server: 4d97a9b5.u2k2b1y2y8-fb-jp01.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 19.9MB/s|Netflix|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56029"
+      server: 4d97a9b5.e7n4h8o6p2-fb-tw09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 18.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56002"
+      server: 4d97a9b5.z4f0d9i1c6-fb-hk02.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 18.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56041
+      server: 4d97a9b5.g1v1p1b6f2-fb-sg01.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 18.4MB/s|Netflix|Openai"
+      port: 26116
+      server: ppy-boardv2.02ijp4uos1.download
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 20.5MB/s|Openai|Gemini"
+      password: 1P120c
+      port: "56051"
+      server: 2d314887.y7i6z4w6e7-fb-us01.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 19.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56043"
+      server: 2d314887.h1v1d0d4y0-fb-sg03.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 18.5MB/s|Netflix|Openai|Gemini"
+      password: 1P120c
+      port: "56060"
+      server: 4d97a9b5.c5m1d8v9t6-fb-us10.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡5 | ⬇️ 19.8MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56045"
+      server: 4d97a9b5.v2c3p9i2y0-fb-sg05.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 20.2MB/s|Netflix|Disney|Youtube"
+      port: 26014
+      server: ppy-hkv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡6 | ⬇️ 20.9MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56046
+      server: 4d97a9b5.q2q9p9t0q2-fb-sg06.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾3 | ⬇️ 22.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56025"
+      server: 2d314887.t3w5r6a5b6-fb-tw05.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 20.8MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56013"
+      server: 2d314887.e1m8h0s6c4-fb-hk13.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 31.1MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56031"
+      server: 2d314887.u2k2b1y2y8-fb-jp01.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡7 | ⬇️ 21.5MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56050"
+      server: 2d314887.i6c5x1e2v0-fb-sg10.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾4 | ⬇️ 19.4MB/s|Netflix|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56022"
+      server: 2d314887.q5p4g2i9n8-fb-tw02.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 20.5MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56019"
+      server: 2d314887.n2k5u8p2l3-fb-hk19.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 19.6MB/s|Openai|Gemini"
+      password: 1P120c
+      port: "56056"
+      server: 2d314887.r9m6t7z0c1-fb-us06.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 22.4MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56035"
+      server: 2d314887.o0p2h3c6e9-fb-jp05.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 19.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56007"
+      server: 4d97a9b5.x6m8q1f3y9-fb-hk07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F300其他1-MY | ⬇️ 21.4MB/s|Openai|Gemini"
+      password: 1P120c
+      port: 56069
+      server: 4d97a9b5.i7v2a9h4n2-fb-my04.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 22.4MB/s|Netflix|Openai|Gemini"
+      password: 1P120c
+      port: "56059"
+      server: 2d314887.n1b6u7w1e6-fb-us09.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 31.9MB/s|Netflix|Youtube|Openai|Gemini"
+      network: tcp
+      port: 26074
+      server: ppy-krv1.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾5 | ⬇️ 19.8MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56028"
+      server: 4d97a9b5.w1q4y3g3y9-fb-tw08.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC台湾6 | ⬇️ 18.3MB/s|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56023"
+      server: 2d314887.e1f4p6b9l6-fb-tw03.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7韩国2 | ⬇️ 21.0MB/s|Netflix|Youtube|Openai|Gemini"
+      port: 26073
+      server: ppy-krv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 24.2MB/s|Netflix|Openai|Gemini"
+      password: 1P120c
+      port: "56055"
+      server: 2d314887.k3t6s5q3d0-fb-us05.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡8 | ⬇️ 19.0MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: "56047"
+      server: 2d314887.l9x3y6g1c9-fb-sg07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港9 | ⬇️ 21.1MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56011
+      server: 4d97a9b5.d9l6y9i3u7-fb-hk11.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F300其他2-MY | ⬇️ 18.1MB/s|Openai"
+      password: 1P120c
+      port: "56067"
+      server: 2d314887.t3s9n7b1x8-fb-my02.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 20.3MB/s|Netflix|Openai|Gemini"
+      password: 1P120c
+      port: "56057"
+      server: 2d314887.l9o6m8o8g7-fb-us07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 19.9MB/s|Openai|Gemini"
+      password: 1P120c
+      port: 56056
+      server: 4d97a9b5.r9m6t7z0c1-fb-us06.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港10 | ⬇️ 28.1MB/s|Netflix|Disney|Youtube"
+      port: 26015
+      server: ppy-hkv1.02ijp4uos1.download
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - name: "\U0001F1ED\U0001F1F0香港11 | ⬇️ 36.8MB/s|Netflix|Youtube"
+      password: 85f133142f04dbf6547da33895cfabb3
+      port: 39001
+      server: 120.233.128.68
+      skip-cert-verify: true
+      sni: 120.233.128.68
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港12 | ⬇️ 22.0MB/s|Netflix|Disney"
+      password: e6ef247c-97ba-45c2-9b53-a170a3680258
+      port: 49000
+      server: hk90.cctv14.xyz
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港13 | ⬇️ 19.1MB/s|Netflix"
+      password: 58e914ae-2428-461d-89ea-2ab2602bb3f2
+      port: 10999
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港14 | ⬇️ 20.8MB/s|Netflix|Disney|Youtube|Gemini"
+      port: 45050
+      server: haa.dashuai.cyou
+      type: vmess
+      udp: true
+      uuid: fa709f60-78b4-401a-bd14-2b70dfc7a215
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 32.3MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56033
+      server: 2250f89a.x8u0j9p3x8-fb-jp03.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本6 | ⬇️ 19.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56039
+      server: 2250f89a.x9o3f2u7o5-fb-jp09.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本7 | ⬇️ 21.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56037
+      server: 2250f89a.r7p0n9u0u1-fb-jp07.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5日本8 | ⬇️ 18.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56038
+      server: 2250f89a.w3j6z0w5r1-fb-jp08.6pzfwf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡9 | ⬇️ 18.3MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 1P120c
+      port: 56043
+      server: 2250f89a.h1v1d0d4y0-fb-sg03.6pzfwf.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5日本9 | ⬇️ 21.0MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      network: ws
+      port: 52512
+      server: aflzzul.meiquankongjian.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+      ws-opts:
+        headers:
+            Host: aflzzul.meiquankongjian.com
+        path: /564dfa20/
+    - down: ""
+      fingerprint: ""
       name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 26.1MB/s|13%|Youtube"
       obfs: ""
       obfs-password: ""
