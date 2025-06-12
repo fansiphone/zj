@@ -1,4 +1,256 @@
 proxies:
+    - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 26.3MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: a41a4b6a-2a76-4f6e-8894-75a0aaf2bb4e
+      port: 48291
+      server: nbae7a7.kaiqsz.com
+      skip-cert-verify: true
+      sni: mmbiz1.redapricotcloud.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 22.8MB/s|Netflix|Disney|Youtube"
+      password: a67b9432-15e3-477d-895d-3c361e31d457
+      port: 49000
+      server: hk90.cctv14.xyz
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 33.1MB/s|Disney|Youtube"
+      port: 22250
+      server: hn3x.newbee8.me
+      tls: false
+      type: vmess
+      udp: true
+      uuid: b35a2774-773d-4473-9558-76c0986e3108
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 19.3MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 486dc501-54cc-4e4c-b524-9a83e98b1c78
+      port: 49805
+      server: qqa813.198139.xyz
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 37.4MB/s|Netflix|Youtube|Openai|Gemini"
+      password: 67684f83-b8f1-453c-b91c-3f4dd2da82ae
+      port: 17701
+      server: zz.xinghongzf.xyz
+      skip-cert-verify: true
+      sni: zz.xinghongzf.xyz
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 32.5MB/s|Netflix|Youtube|Openai|Gemini"
+      password: 67684f83-b8f1-453c-b91c-3f4dd2da82ae
+      port: 17703
+      server: zz.xinghongzf.xyz
+      skip-cert-verify: true
+      sni: zz.xinghongzf.xyz
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 34.9MB/s|Netflix|Disney|Youtube|Openai"
+      password: e82a4814-4580-4464-9a74-5abc06c1bcfe
+      port: 26000
+      server: diao.arken8379.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 18.7MB/s|Netflix|Youtube|Openai|Gemini"
+      password: e82a4814-4580-4464-9a74-5abc06c1bcfe
+      port: 26003
+      server: diao.arken8379.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 18.6MB/s|Netflix|Youtube|Openai|Gemini"
+      password: e82a4814-4580-4464-9a74-5abc06c1bcfe
+      port: 26031
+      server: diao.arken8379.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 22.4MB/s|Netflix|Disney|Openai|Gemini"
+      network: tcp
+      port: 26003
+      server: ppy-usv1.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 18.4MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: 26059
+      server: ppy-twv2.02ijp4uos1.download
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 18.9MB/s|Youtube|Openai"
+      obfs: ""
+      obfs-password: ""
+      password: dc2cc253-f126-453c-9a90-aaf4f1522cc5
+      port: "18385"
+      server: jp1.ktmhyld.com
+      skip-cert-verify: true
+      sni: jp1.ktmhyld.com
+      type: hysteria2
+      up: ""
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 19.5MB/s|Netflix"
+      password: e8e46dbf-758e-4c36-a6cc-b670efaa1b8c
+      port: 10888
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 19.6MB/s|Netflix"
+      password: e8e46dbf-758e-4c36-a6cc-b670efaa1b8c
+      port: 10999
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 38.6MB/s|Netflix|Disney|Youtube|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35001
+      server: 35001.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 22.9MB/s|Netflix|Disney|Youtube|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 56540
+      server: 56540.portfish.asia
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 23.9MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35023
+      server: 35023.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 18.7MB/s|Netflix|Disney|Youtube|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35002
+      server: 35002.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港9 | ⬇️ 21.9MB/s|Netflix|Disney|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35000
+      server: 35000.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港10 | ⬇️ 21.0MB/s|Netflix|Disney|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35004
+      server: 35004.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港11 | ⬇️ 22.3MB/s|Netflix|Disney|Youtube|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35015
+      server: 35015.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 18.1MB/s|Netflix|Youtube|Openai"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35020
+      server: 35020.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 21.9MB/s|Netflix|Youtube|Openai|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35021
+      server: 35021.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 24.3MB/s|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35016
+      server: 35016.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 18.3MB/s|Gemini"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35025
+      server: 35025.fishportnode.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EA德国2 | ⬇️ 18.6MB/s|Netflix|Openai"
+      password: e0372a5e-4884-49ba-85aa-1938733e7041
+      port: 35028
+      server: 35028.fishportnode.top
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 18.4MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      port: 45077
+      server: xdd.dashuai.cyou
+      type: vmess
+      udp: true
+      uuid: f09f9297-96e4-4de9-931f-2cf582483192
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港12 | ⬇️ 35.0MB/s|Netflix|Disney|Youtube"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18702
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港13 | ⬇️ 31.4MB/s|Netflix|Disney|Youtube"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18701
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 22.9MB/s"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18709
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 19.2MB/s|Netflix|Gemini"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18707
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1F8\U0001F1EC新加坡5 | ⬇️ 35.4MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18705
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC新加坡6 | ⬇️ 22.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 3bf92852-d979-4993-8b13-5b1e74e6b6e8
+      port: 11534
+      server: iepl.gengsang.me
+      type: ss
+      udp: true
     - down: ""
       fingerprint: ""
       name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 22.3MB/s|Netflix|Youtube"
