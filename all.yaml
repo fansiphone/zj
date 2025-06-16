@@ -1,4 +1,151 @@
 proxies:
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 24.9MB/s|14%|Netflix|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 25.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: afq21iv7dd
+      port: 61374
+      server: au01.kkp.wtf
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 18.7MB/s|Netflix|Youtube|Openai"
+      password: HrTsLJvh
+      port: "38632"
+      server: 36.151.251.62
+      skip-cert-verify: true
+      sni: 36.151.251.62
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 18.3MB/s|Netflix|Youtube|Openai"
+      password: FpQhGpIr
+      port: "38632"
+      server: 36.151.251.62
+      skip-cert-verify: true
+      sni: 36.151.251.62
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 25.0MB/s|0%|Netflix|Disney|Openai|Gemini"
+      password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      port: 9900
+      server: gzyd.cg.xxality.cn
+      skip-cert-verify: false
+      sni: cghk.hysality.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 20.1MB/s|40%|Netflix|Disney|Youtube"
+      password: 3279f963-54d0-427f-ab12-9e16305ef0cc
+      port: 49000
+      server: hk90.cctv14.xyz
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 22.1MB/s|0%|Netflix|Disney|Youtube"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18701
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 30.9MB/s|40%|Netflix|Disney|Youtube"
+      password: 2dd6d104-6cd7-4b5a-8331-29bb5346d281
+      port: 49000
+      server: hk90.cctv14.xyz
+      type: ss
+      udp: true
+    - name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 23.2MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 20482402-7f76-11ed-a8bf-f23c91cfbbc9
+      port: 27231
+      server: 1480f7c5-sy0cg0-t85gkc-115d8.cm5.cnkuaishou.com
+      sni: 1480f7c5-sy0cg0-t85gkc-115d8.cm5.cnkuaishou.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision-udp443-udp443
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 20.1MB/s|1%|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      port: "35000"
+      server: gzyd.cg.xxality.cn
+      servername: cgtw.hysality.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 18.0MB/s|58%|Netflix|Youtube|Openai|Gemini"
+      password: e22b89ae-6996-4824-ac31-610ac7349e6a
+      port: "54831"
+      server: zf2.10101251.xyz
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 19.1MB/s|1%|Youtube|Gemini"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18713
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 33.5MB/s|100%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 49cdeea8-97dd-402a-bf8f-961cb59123a7
+      port: 16009
+      server: hk009.dogsvip.site
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 32.8MB/s|Netflix|Disney|Youtube"
+      port: 26012
+      server: ppy-hkv1.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 37.1MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: lSrdIR
+      port: 54147
+      server: 118.184.136.61
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 28.3MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: lSrdIR
+      port: 54147
+      server: hr04.htz.wtf
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 18.0MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: lSrdIR
+      port: 54147
+      server: hr07.htz.wtf
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 21.1MB/s|Disney|Youtube|Openai|Gemini"
+      password: lSrdIR
+      port: 54147
+      server: krgame05.htz.wtf
+      type: ss
+      udp: true
     - cipher: rc4-md5
       name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 27.6MB/s|5%|Netflix|Disney|Youtube|Openai|Gemini"
       password: efanccyun
