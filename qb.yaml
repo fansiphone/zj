@@ -1,6 +1,54 @@
 proxies:
     - down: ""
       fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 23.1MB/s|15%|Netflix|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 22.2MB/s|0%|Netflix|Disney|Youtube"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18701
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 22.5MB/s|Netflix|Disney|Youtube"
+      password: MTU5ZjcxOGM0YjZmODY5NGM0NDUwZWIwZWJjNmFmMTA=:YzlmOGU1ZWQtNmYxNi00OTFkLTljMDItMDNiZTQxZDA=
+      port: 18702
+      server: d2d52406-fdd1-4937-be5f-0bc676d9af64.themars.top
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 18.4MB/s|2%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: Paofu
+      plugin: obfs
+      plugin-opts:
+        host: b5f93318569.microsoft.com
+        mode: http
+      port: 1173
+      server: yd-02.paofunlink.com
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 18.7MB/s|2%|Netflix|Youtube"
+      password: Paofu
+      plugin: obfs
+      plugin-opts:
+        host: b5f93318569.microsoft.com
+        mode: http
+      port: 5986
+      server: yd-04.paofunlink.com
+      type: ss
+      udp: true
+    - down: ""
+      fingerprint: ""
       name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 18.7MB/s|14%|Netflix|Youtube"
       obfs: ""
       obfs-password: ""
