@@ -1,6 +1,125 @@
 proxies:
     - down: ""
       fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 24.2MB/s|15%|Netflix|Youtube"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: gcp-hk.6812306.xyz
+      skip-cert-verify: false
+      sni: gcp-hk.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 19.4MB/s|Netflix|Youtube|Openai|Gemini"
+      network: ws
+      port: "16626"
+      server: yes.mojcn.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: ad2b5cee-f61d-4060-8726-5fedf509ff5d
+      ws-opts:
+        headers:
+            Host: a75b165b6212875c9aa9db1e247d1912.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 19.6MB/s|0%|Netflix|Disney|Youtube|Gemini"
+      network: tcp
+      port: "45050"
+      server: haa.dashuai.cyou
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: dd0aaa5d-bec1-407d-a54f-846f8aee58ef
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 23.6MB/s|Netflix|Youtube|Openai"
+      password: HrTsLJvh
+      port: "38632"
+      server: 36.151.251.62
+      skip-cert-verify: true
+      sni: 36.151.251.62
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 20.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      network: tcp
+      password: a25ed269-105b-4f15-bee2-bc2785d38912
+      port: "42765"
+      server: wb.kaiqsz.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 21.0MB/s|0%|Netflix|Openai"
+      network: ws
+      port: "16618"
+      server: yes.mojcn.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: ad2b5cee-f61d-4060-8726-5fedf509ff5d
+      ws-opts:
+        headers:
+            Host: a75b165b6212875c9aa9db1e247d1912.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 18.3MB/s|33%|Netflix|Disney"
+      network: ws
+      port: "16622"
+      server: m.cnmjin.net
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: ad2b5cee-f61d-4060-8726-5fedf509ff5d
+      ws-opts:
+        headers:
+            Host: a75b165b6212875c9aa9db1e247d1912.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 18.7MB/s|2%|Netflix|Disney|Youtube"
+      password: Paofu
+      plugin: obfs
+      plugin-opts:
+        host: e9625136058.microsoft.com
+        mode: http
+      port: 5989
+      server: yd-07.paofunlink.com
+      type: ss
+      udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 20.3MB/s|0%|Netflix|Disney|Youtube|Gemini"
+      network: tcp
+      port: "45050"
+      server: haa.dashuai.cyou
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: adf23487-731b-486e-90e1-b92248dfbf52
+      xudp: true
+    - down: ""
+      fingerprint: ""
       name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 23.1MB/s|15%|Netflix|Youtube"
       obfs: ""
       obfs-password: ""
