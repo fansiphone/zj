@@ -1,4 +1,279 @@
 proxies:
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 18.8MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      port: 9900
+      server: gzyd.cg.xxality.cn
+      skip-cert-verify: false
+      sni: cghk.hysality.com
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 18.8MB/s|0%|Youtube"
+      port: 26010
+      server: ppy-hkv1.02ijp4uos1.download
+      tls: false
+      type: vmess
+      uuid: ffc323ce-efe2-3b60-a1d1-f4f5497bf2d7
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 19.2MB/s|35%|Netflix|Youtube|Openai"
+      password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      port: 35000
+      server: gzyd.cg.xxality.cn
+      skip-cert-verify: false
+      sni: cghk.hysality.com
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 26.3MB/s|0%|Netflix|Disney|Youtube"
+      port: 26015
+      server: ppy-hkv2.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 19.8MB/s|1%|Netflix|Disney|Youtube|Openai|Gemini"
+      port: 26061
+      server: ppy-twv1.02ijp4uos1.download
+      type: vmess
+      udp: true
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 33.4MB/s|0%|Netflix|Disney"
+      password: 3a9a065f-d486-4a0f-a5be-9cac7fbc59c7
+      port: 10888
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 19.8MB/s|0%|Netflix|Youtube|Gemini"
+      password: 3a9a065f-d486-4a0f-a5be-9cac7fbc59c7
+      port: 10999
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 24.5MB/s|56%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: b36d60e0-db96-4e1b-99f8-b3184c3d5d02
+      port: 39103
+      server: free-relay.m.themars.top
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 22.7MB/s|56%|Netflix|Disney|Openai|Gemini"
+      password: b36d60e0-db96-4e1b-99f8-b3184c3d5d02
+      port: 39105
+      server: free-relay.m.themars.top
+      type: ss
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 27.5MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: iFDE0Z
+      port: 20353
+      server: sg17.fjk.wtf
+      type: ss
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_8 | ⬇️ 30.6MB/s|Netflix|Disney|Youtube|Openai|Gemini"
+      password: iFDE0Z
+      port: 20353
+      server: 118.184.136.60
+      type: ss
+    - cipher: rc4-md5
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 18.2MB/s|Disney|Youtube|Openai|Gemini"
+      password: iFDE0Z
+      port: 20353
+      server: kraz01.fjk.wtf
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_9 | ⬇️ 19.8MB/s|0%|Netflix|Disney|Youtube"
+      network: tcp
+      port: "559"
+      server: wnpck.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 18.2MB/s|0%|Netflix|Youtube|Openai|Gemini"
+      network: tcp
+      port: "21566"
+      server: dlgdc.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 19.4MB/s|0%|Netflix|Disney|Youtube"
+      network: tcp
+      port: "12015"
+      server: wnpck.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1FFCZ_1 | ⬇️ 18.4MB/s|0%|Netflix|Openai|Gemini"
+      port: 26100
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 18.1MB/s|0%|Netflix|Disney|Openai"
+      network: ws
+      port: 20032
+      server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 7e23c11d-dee4-4ccc-b9ff-dddc241f7cd9
+      ws-opts:
+        headers:
+            Host: tms.dingtalk.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 18.6MB/s|23%|Netflix|Openai|Gemini"
+      port: 26140
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 18.4MB/s|25%|Netflix|Disney|Youtube"
+      port: 26151
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1EDKH_1 | ⬇️ 29.9MB/s|Netflix|Youtube|Openai|Gemini"
+      port: 26082
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1EDTH_1 | ⬇️ 32.2MB/s|11%|Netflix|Youtube|Openai|Gemini"
+      network: ws
+      port: 20006
+      server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 7e23c11d-dee4-4ccc-b9ff-dddc241f7cd9
+      ws-opts:
+        headers:
+            Host: tms.dingtalk.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 18.9MB/s|0%|Netflix|Disney|Openai|Gemini"
+      port: 26003
+      server: ppy-usv1.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F1CL_1 | ⬇️ 20.4MB/s|Youtube|Openai|Gemini"
+      port: 26147
+      server: ppy-boardv2.02ijp4uos1.download
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a81bdb6c-e469-32f6-83c9-df535623205e
+    - alpn:
+        - h2
+      name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 23.6MB/s|0%|Netflix|Openai"
+      password: 7fec5d9d-4a06-377f-9fc3-6c1fef6a7f4b
+      port: 63985
+      server: 111.47.212.170
+      skip-cert-verify: true
+      sni: x74.flybar.work
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 23.8MB/s|0%|Netflix|Disney|Openai|Gemini"
+      password: af4476cc-7ad0-4aec-999a-97f70bc9de99
+      port: 34001
+      server: lbsh.bnnodeservice.com
+      skip-cert-verify: true
+      sni: cert.bitbyte.one
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 20.0MB/s|0%|Netflix|Disney|Openai|Gemini"
+      port: 48043
+      server: 112.5.37.212
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cce70a49-2fe1-4e29-bccb-62e514fa6f48
+    - client-fingerprint: edge
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_10 | ⬇️ 19.6MB/s|0%|Netflix|Disney|Youtube|Openai"
+      packet-encoding: xudp
+      port: 443
+      reality-opts:
+        public-key: pQGcOvpKkGQxtCT7g34Sk6wjbzRm_c2dY_mN9m7qWwE
+        short-id: dd0de204
+      server: 6rguyesfdhvbz.uk
+      servername: www.amzn.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: cce70a49-2fe1-4e29-bccb-62e514fa6f48
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 21.8MB/s|17%|Netflix|Disney|Youtube|Openai"
+      password: kIKFMf0EbDYYTnUYTSWsrZO2CgI
+      port: 24801
+      server: 13.230.97.153
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 28.5MB/s|Netflix|Disney|Openai|Gemini"
+      network: ws
+      port: 20013
+      server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+      ws-opts:
+        headers:
+            Host: tms.dingtalk.com
+        path: /
+      xudp: true
     - down: ""
       fingerprint: ""
       name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 24.2MB/s|15%|Netflix|Youtube"
