@@ -1,4 +1,98 @@
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 22.9MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: b9d943d7-2268-306a-8e46-0eb17f49b958
+      port: 14560
+      server: 643wz-g01.hk02-ae5.entry.v50307shvkaa.art
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 32.5MB/s|0%|Netflix|Disney|Gemini"
+      password: 3a9a065f-d486-4a0f-a5be-9cac7fbc59c7
+      port: 10999
+      server: 113.96.190.245
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 21.6MB/s|0%|Netflix|Disney|Youtube|Gemini"
+      password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      port: 9900
+      server: gzyd.cg.xxality.cn
+      skip-cert-verify: false
+      sni: cghk.hysality.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 20.8MB/s|35%|Netflix|Disney|Youtube|Gemini"
+      password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
+      port: 35000
+      server: gzyd.cg.xxality.cn
+      skip-cert-verify: false
+      sni: cghk.hysality.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 19.7MB/s|0%|Netflix|Disney"
+      password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+      port: "8313"
+      server: dozo01.flztjc.top
+      skip-cert-verify: false
+      sni: hk-13-568.flztjc.net
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 18.8MB/s|54%|Youtube|Openai|Gemini"
+      network: tcp
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 10600
+      server: 36.156.102.123
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 20.8MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: b9d943d7-2268-306a-8e46-0eb17f49b958
+      port: 1413
+      server: 30bv7-g01.hk06-ae5.entry.v50708.dev
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 20.1MB/s|2%|Netflix|Disney|Youtube"
+      password: b5ffe83f-36f3-304a-83de-dfc69b6b8e74
+      port: 50002
+      server: api-wx-1.rancho.gay
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_8 | ⬇️ 20.6MB/s|0%|Netflix|Youtube|Openai|Gemini"
+      password: 26c7f46b-3e20-3952-aa17-3fd32eef4152
+      port: 56201
+      server: k8zq2nld9wfx3vyu7tmb-hk.6pzftj.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_9 | ⬇️ 20.0MB/s|0%|Disney|Youtube|Openai|Gemini"
+      password: 26c7f46b-3e20-3952-aa17-3fd32eef4152
+      port: 56202
+      server: k8zq2nld9wfx3vyu7tmb-hk.6pzftj.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 18.2MB/s|29%|Netflix|Disney|Youtube|Openai|Gemini"
+      password: 5wTnNEFTKv
+      port: 1935
+      server: x1-japan-amazon-v2.devefun.org
+      sni: x1-japan-amazon-v2.devefun.org
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 18.3MB/s|Netflix|Youtube|Openai|Gemini"
+      network: ws
+      port: "22103"
+      server: 3.0.56.6
+      type: vless
+      udp: true
+      uuid: 80e288bc-287a-4b6d-b3e2-6ccf1dfddf22
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /bing
+      xudp: true
     - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 18.8MB/s|0%|Netflix|Disney|Youtube|Openai|Gemini"
       password: 7e91a4da-2a4a-45a4-823a-e4f2fb67e619
       port: 9900
