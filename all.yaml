@@ -1,4 +1,224 @@
 proxies:
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 1000 Mbps
+      fast-open: false
+      name: "\U0001F1FA\U0001F1F8US_1 |12.7MB/s|GPT|NF"
+      port: 11512
+      protocol: udp
+      server: 108.181.24.77
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 1000 Mbps
+    - auth: dongtaiwang.com
+      name: "\U0001F1FA\U0001F1F8US_2 |8.5MB/s|GPT|NF|GM|49%"
+      password: dongtaiwang.com
+      port: 22222
+      server: 208.87.243.187
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1 |10.3MB/s|GPT|YT-HK|NF|D+"
+      network: ws
+      port: 8443
+      server: 104.26.7.89
+      servername: brmahasang.ahaysiahzangi.dpdns.org
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: f5cf098f-5143-440f-a490-7fc24ff27fb0
+      ws-opts:
+        headers:
+            Host: brmahasang.ahaysiahzangi.dpdns.org
+        path: /@warp_city
+    - fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1 |15.6MB/s|GPT|NF|D+|GM"
+      password: b8480328-c0e7-44a0-9230-d654233da35d
+      port: "13091"
+      server: all.meiall.xyz
+      skip-cert-verify: true
+      sni: all.meiall.xyz
+      type: anytls
+      udp: true
+      username: b8480328-c0e7-44a0-9230-d654233da35d
+    - client-fingerprint: chrome
+      flow: ""
+      grpc-opts:
+        grpc-service-name: tj
+      name: "\U0001F1EF\U0001F1F5JP_1 |11.7MB/s|GPT|YT-JP|NF|GM|27%"
+      network: grpc
+      port: 20230
+      reality-opts:
+        public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c
+        short-id: d3b6f0c3
+      server: jp003.421421.xyz
+      servername: www.nvidia.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+    - name: "\U0001F1EF\U0001F1F5JP_2 |8.8MB/s|GPT|YT-JP|NF|GM|29%"
+      network: ws
+      password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+      port: 20230
+      server: jp005.421421.xyz
+      skip-cert-verify: true
+      sni: www.alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3 |8.9MB/s|GPT|YT-JP|NF|GM|30%"
+      network: ws
+      password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+      port: 20230
+      server: jp006.421421.xyz
+      skip-cert-verify: true
+      sni: www.alibaba.com
+      type: trojan
+      udp: true
+    - auth: dongtaiwang.com
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3 |8.8MB/s|GPT|NF|40%"
+      password: dongtaiwang.com
+      port: 4710
+      server: 108.181.5.130
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+      udp: true
+    - auth: J8Had1nwTgkNvWNN0WrucWq38
+      name: "\U0001F1FA\U0001F1F8US_4 |9.2MB/s|GPT|NF|GM|53%"
+      password: J8Had1nwTgkNvWNN0WrucWq38
+      port: 33763
+      server: 146.190.51.60
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F5\U0001F1EDPH_1 |10.0MB/s|GPT|YT-HK|NF|D+"
+      network: ws
+      port: "8880"
+      server: 172.67.65.158
+      servername: VngSuPpLY.IP-DDnS.com
+      type: vless
+      udp: true
+      uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+      ws-opts:
+        headers:
+            Host: VngSuPpLY.IP-DDnS.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /Etb1L6YUdZFZuTOr?ed=2560
+      xudp: true
+    - name: "\U0001F1F5\U0001F1EDPH_2 |14.8MB/s|GPT|YT-HK|NF|D+"
+      network: ws
+      port: "8880"
+      server: 172.67.65.158
+      type: vless
+      udp: true
+      uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+      ws-opts:
+        headers:
+            Host: VngSuPpLY.IP-DdnS.com
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+        path: /Etb1L6YUdZFZuTOr?ed=2560
+      xudp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1665
+      down: 100
+      name: "\U0001F1F7\U0001F1FARU_1 |8.8MB/s|YT-RU"
+      port: 62003
+      protocol: udp
+      server: 176.32.35.226
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "100"
+      name: "\U0001F1F3\U0001F1F1NL_1 |8.4MB/s|GPT|YT-NL|NF|16%"
+      obfs: ""
+      port: "14241"
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - cipher: chacha20
+      name: "\U0001F1ED\U0001F1F0HK_2 |23.5MB/s|YT-HK|NF"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: mPQ5C9
+      port: 50138
+      protocol: auth_chain_a
+      protocol-param: 64057380:sxKJ6e
+      server: 10086.cn.w.kunlunae.com
+      type: ssr
+    - cipher: chacha20
+      name: "\U0001F1ED\U0001F1F0HK_3 |22.7MB/s|YT-HK|NF|0%"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: mPQ5C9
+      port: 50136
+      protocol: auth_chain_a
+      protocol-param: 64057380:sxKJ6e
+      server: 10086.cn.w.kunlunae.com
+      type: ssr
+    - cipher: chacha20
+      name: "\U0001F1ED\U0001F1F0HK_4 |10.9MB/s|YT-HK|NF|39%"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: mPQ5C9
+      port: 50137
+      protocol: auth_chain_a
+      protocol-param: 64057380:sxKJ6e
+      server: 10086.cn.w.kunlunae.com
+      type: ssr
+    - cipher: chacha20
+      name: "\U0001F1ED\U0001F1F0HK_5 |16.6MB/s|YT-HK|NF"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: mPQ5C9
+      port: 50139
+      protocol: auth_chain_a
+      protocol-param: 64057380:sxKJ6e
+      server: 10086.cn.w.kunlunae.com
+      type: ssr
+    - auth: wl4HYN9PPKs8d8IzGIt4yKqt0
+      name: "\U0001F1EF\U0001F1F5JP_4 |10.3MB/s|GPT|YT-JP|NF|GM"
+      password: wl4HYN9PPKs8d8IzGIt4yKqt0
+      port: 53348
+      server: 47.74.34.102
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - auth: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      name: "\U0001F1F8\U0001F1ECSG_1 |10.6MB/s|GPT|YT-SG|NF|GM|29%"
+      password: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      port: 12332
+      server: 47.236.104.81
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - auth: kWlrCka5jzfKbD2z7ucwANEdZM
+      name: "\U0001F1EF\U0001F1F5JP_5 |10.8MB/s|GPT|YT-JP|NF|GM|0%"
+      password: kWlrCka5jzfKbD2z7ucwANEdZM
+      port: 26404
+      server: 47.245.53.59
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
     - auth: 1U8N1DTJHuKbviXMko6QMZvaA
       name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 10.0MB/s|27%|Netflix|Youtube|Openai|Gemini"
       password: 1U8N1DTJHuKbviXMko6QMZvaA
