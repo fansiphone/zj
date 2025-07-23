@@ -1,4 +1,214 @@
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_1 |8.3MB/s|0%"
+      password: 4194ce5b1f36f660
+      port: 29991
+      server: 176.32.35.68
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1 |11.5MB/s|GPT|YT-KR|NF|GM|26%"
+      password: amazonskr05
+      port: 443
+      server: 43.203.178.198
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_2 |11.4MB/s|GPT|YT-KR|NF|26%"
+      password: amazonskr05
+      port: 443
+      server: 3.38.134.57
+      type: ss
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2 |12.4MB/s|GPT|YT-HK|NF|D+|3%"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: "2"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1 |10.6MB/s|GPT|NF|GM"
+      network: ws
+      port: "30829"
+      server: v29.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: ocbc.com
+        path: /oooo
+      xudp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_3 |26.8MB/s|GPT|YT-HK|NF|D+|GM|0%"
+      password: tmd8427
+      port: "52252"
+      server: 120.233.71.140
+      type: ss
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1 |8.8MB/s|GPT"
+      network: ws
+      port: "443"
+      server: 104.26.6.89
+      servername: parsdl.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5159e44f-b4cf-49d9-a4c2-5620a6431e87
+      ws-opts:
+        headers:
+            Host: nb-de.parsdl.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /hajmi?ed=2560
+      xudp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_4 |24.5MB/s|GPT|YT-HK|NF|D+|GM|17%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30001
+      server: welfare.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_5 |17.4MB/s|GPT|YT-HK|NF|D+|GM|0%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30004
+      server: china1-2.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_1 |24.9MB/s|GPT|YT-SG|NF|D+|GM|41%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30021
+      server: china2.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_6 |13.1MB/s|GPT|YT-HK|NF|D+|GM|0%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30001
+      server: china1.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5JP_1 |12.8MB/s|GPT|YT-JP|NF|D+|GM|0%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30031
+      server: china3.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_7 |8.8MB/s|GPT|YT-HK|NF|D+|GM|0%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30002
+      server: china1.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1 |11.5MB/s|GPT|YT-TW|NF|GM|0%"
+      network: ws
+      port: 443
+      server: 43.213.57.214
+      servername: gov.lsyx.asia
+      tls: true
+      type: vmess
+      udp: true
+      uuid: d1525e17-240d-4635-9318-4936408ffd74
+      ws-headers:
+        Host: gov.lsyx.asia
+      ws-opts:
+        headers:
+            Host: gov.lsyx.asia
+        path: /cache
+      ws-path: /cache
+    - cipher: aes-128-gcm
+      name: "\U0001F1F9\U0001F1FCTW_2 |9.1MB/s|GPT|YT-TW|NF|D+|GM|1%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30012
+      server: china1.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F9\U0001F1FCTW_3 |9.2MB/s|GPT|YT-TW|NF|D+|GM|1%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30011
+      server: china1.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_2 |11.8MB/s|GPT|NF|D+"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30042
+      server: china3.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_2 |13.1MB/s|GPT|YT-SG|NF|D+|GM|39%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30022
+      server: china2.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_8 |8.9MB/s|GPT|YT-HK|NF|D+|GM"
+      network: ws
+      port: 443
+      server: YSHK-1c6cd66c49c80e43.elb.ap-east-1.amazonaws.com
+      servername: gov.lsyx.asia
+      tls: true
+      type: vmess
+      udp: true
+      uuid: d1525e17-240d-4635-9318-4936408ffd74
+      ws-headers:
+        Host: gov.lsyx.asia
+      ws-opts:
+        headers:
+            Host: gov.lsyx.asia
+        path: /cache
+      ws-path: /cache
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_3 |12.6MB/s|GPT|NF|D+|GM|18%"
+      password: d1525e17-240d-4635-9318-4936408ffd74
+      port: 30041
+      server: china3.cdn.yushe-node.top
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1ECSG_3 |13.1MB/s|GPT|YT-SG|NF|GM|29%"
+      password: amazonskr05
+      port: 443
+      server: 3.0.145.104
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_3 |11.2MB/s|GPT|YT-KR|NF|GM|26%"
+      password: amazonskr05
+      port: 443
+      server: 43.203.107.212
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_4 |9.0MB/s|GPT|YT-KR|NF|GM|0%"
+      password: amazonskr05
+      port: 443
+      server: 15.164.180.182
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1ECSG_4 |15.7MB/s|GPT|NF|GM|26%"
+      password: amazonskr05
+      port: 443
+      server: 13.250.2.87
+      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
