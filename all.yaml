@@ -1,4 +1,70 @@
 proxies:
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_1 |12.8MB/s|GPT|YT-JP|NF|D+|GM|0%"
+      network: ws
+      port: "443"
+      server: 18.183.158.211
+      servername: jdpyip.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 66e2f598-ae5b-4725-9aca-73d1dee9db5a
+      ws-opts:
+        headers:
+            Host: jdpyip.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1 |18.4MB/s|GPT|YT-JP|NF|D+|GM|0%"
+      network: tcp
+      port: "21566"
+      server: dlgdc.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F2\U0001F1FEMY_1 |12.2MB/s|GPT|YT-MY|NF|GM|0%"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: aws-malaysia.6812306.xyz
+      skip-cert-verify: false
+      sni: aws-malaysia.6812306.xyz
+      type: hysteria2
+      up: ""
+    - auth: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      name: "\U0001F1F8\U0001F1ECSG_1 |11.6MB/s|GPT|YT-SG|NF|GM"
+      password: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      port: 12332
+      server: 47.236.104.81
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - down: null
+      name: "\U0001F1ED\U0001F1F0HK_1 |14.6MB/s|YT-HK|NF|7%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 31126
+      ports: 31000-31999
+      server: hkg.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - down: null
+      name: "\U0001F1ED\U0001F1F0HK_2 |11.0MB/s|YT-HK|NF|7%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 32634
+      ports: 32000-32999
+      server: hkg.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
     - auth: kWlrCka5jzfKbD2z7ucwANEdZM
       name: "\U0001F1EF\U0001F1F5JP_1 |14.6MB/s|GPT|YT-JP|NF|GM|0%"
       password: kWlrCka5jzfKbD2z7ucwANEdZM
