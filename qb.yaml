@@ -1,4 +1,104 @@
 proxies:
+    - down: null
+      name: "\U0001F1ED\U0001F1F0HK_1 |14.4MB/s|YT-HK|NF|6%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 31126
+      ports: 31000-31999
+      server: hkg.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F2\U0001F1FEMY_1 |12.9MB/s|GPT|YT-MY|NF|GM|0%"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: aws-malaysia.6812306.xyz
+      skip-cert-verify: false
+      sni: aws-malaysia.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1 |20.4MB/s|GPT|YT-JP|NF|GM|0%"
+      network: tcp
+      port: "21566"
+      server: dlgdc.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_1 |9.4MB/s|GPT|YT-SG|D+|GM|0%"
+      network: tcp
+      port: "12015"
+      server: wnpck.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1 |10.5MB/s|GPT|YT-KR|NF|GM|25%"
+      password: yijian0503
+      port: 443
+      server: 43.203.238.48
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_1 |10.8MB/s|GPT|NF|GM|50%"
+      network: ws
+      port: 30808
+      server: v8.heduian.link
+      servername: baidu.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: baidu.com
+        path: /oooo
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_2 |9.2MB/s|GPT|NF|D+|0%"
+      network: ws
+      port: "25245"
+      server: sg1.awslcn.info
+      servername: sg1.awslcn.info
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 4e1704e8-991d-43c6-bbe0-823602c17872
+      ws-opts:
+        headers:
+            Host: sg1.awslcn.info
+        path: /
+      xudp: true
+    - auth: PTmFxrZPb8sSZic36IehgK3Sa7U
+      name: "\U0001F1EF\U0001F1F5JP_2 |9.4MB/s|GPT|YT-JP|NF|GM|13%"
+      password: PTmFxrZPb8sSZic36IehgK3Sa7U
+      port: 2125
+      server: 13.112.137.247
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - auth: zO3j18CpknDJ09KzlHN0Gq2lvM
+      name: "\U0001F1EF\U0001F1F5JP_3 |9.5MB/s|GPT|YT-JP|NF|GM|26%"
+      password: zO3j18CpknDJ09KzlHN0Gq2lvM
+      port: 19245
+      server: 18.181.145.34
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
     - client-fingerprint: random
       name: "\U0001F1FA\U0001F1F8US_1 |12.8MB/s|GPT|YT-JP|NF|D+|GM|0%"
       network: ws
