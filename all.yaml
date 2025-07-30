@@ -1,4 +1,546 @@
 proxies:
+    - name: "\U0001F1ED\U0001F1F0HK_1 |13.9MB/s|NF|D+|6%"
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 3221
+      server: 36.151.192.243
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - name: "\U0001F1F0\U0001F1F7KR_1 |18.3MB/s|GPT|YT-KR|NF|GM|0%"
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 16003
+      server: 36.151.195.111
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_1 |19.3MB/s|GPT|YT-SG|NF|GM|51%"
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 811
+      server: 36.151.195.111
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_2 |10.2MB/s|YT-HK|NF|D+|1%"
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 446
+      server: 36.151.192.243
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 832
+      down: 100
+      name: "\U0001F1FA\U0001F1F8US_1 |10.3MB/s|GPT|NF|46%"
+      port: 40528
+      protocol: udp
+      server: 208.87.243.187
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
+    - alterId: 0
+      cipher: auto
+      delay: 1435
+      name: "\U0001F1EC\U0001F1E7GB_1 |9.3MB/s|YT-GB|56%"
+      network: ws
+      port: 2083
+      server: www.meter.net
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: d218dfe5-fae6-408e-b615-8666df7f0924
+      ws-opts:
+        headers:
+            Host: blaze-uk-48.pinkle7.site
+        path: /wssss
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 1000 Mbps
+      name: "\U0001F1FA\U0001F1F8US_2 |11.0MB/s|GPT|NF|40%"
+      port: 11512
+      server: 108.181.24.77
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 1000 Mbps
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_3 |10.9MB/s|GPT|NF|D+|GM|50%"
+      network: ws
+      port: 30808
+      server: v8.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: v8.heduian.link
+        path: /oooo
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_1 |15.1MB/s|GPT|NF|54%"
+      password: d0d08cddacc3190ea81b1b792e1b5fde
+      port: 46135
+      server: 36.151.192.243
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4 |13.3MB/s|GPT|NF|D+|GM|50%"
+      network: ws
+      port: 30808
+      server: v8.heduian.link
+      servername: v8.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: v8.heduian.link
+        path: /oooo
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_1 |9.4MB/s|GPT|YT-HK|NF|D+|0%"
+      network: ws
+      port: "443"
+      server: web.xhamster.biz.id
+      servername: web.xhamster.biz.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+      ws-opts:
+        headers:
+            Host: web.xhamster.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /Free-CF-Proxy-AT29
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1FAAU_1 |12.2MB/s|GPT|NF|D+|32%"
+      network: ws
+      port: "443"
+      server: freexxx.xhamster.biz.id
+      servername: freexxx.xhamster.biz.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+      ws-opts:
+        headers:
+            Host: freexxx.xhamster.biz.id
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /Free-CF-Proxy-AU1
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1 |9.3MB/s|GPT|YT-HK|NF|3%"
+      network: ws
+      port: "443"
+      server: 104.26.7.18
+      servername: albedoalbedochan.violetchaan.ip-ddns.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 004ba5d4-d448-4960-a762-e5190ab415f2
+      ws-opts:
+        headers:
+            Host: albedoalbedochan.violetchaan.ip-ddns.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
+      xudp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_2 |11.2MB/s|GPT|NF|2%"
+      network: ws
+      port: "2083"
+      server: 104.26.6.89
+      servername: sadegheh3.sadafspace.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: turboo-server
+      ws-opts:
+        headers:
+            Host: sadegheh3.sadafspace.com
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5 |10.4MB/s|GPT|YT-HK|NF|D+|26%"
+      network: ws
+      port: "443"
+      server: 104.26.8.156
+      servername: yx.yushan.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: c4587bda-09fc-4b3b-8221-4450fccc33d1
+      ws-opts:
+        headers:
+            Host: yx.yushan.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_2 |19.9MB/s|GPT|YT-JP|NF|D+|GM|0%"
+      network: ws
+      port: 52512
+      server: aflzzul.meiquankongjian.com
+      servername: aflzzul.meiquankongjian.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+      ws-opts:
+        headers:
+            Host: aflzzul.meiquankongjian.com
+        path: /564dfa20/
+    - down: null
+      name: "\U0001F1ED\U0001F1F0HK_3 |20.5MB/s|YT-HK|NF|6%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 31126
+      ports: 31000-31999
+      server: hkg.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - down: null
+      name: "\U0001F1ED\U0001F1F0HK_4 |19.1MB/s|YT-HK|NF|6%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 32634
+      ports: 32000-32999
+      server: hkg.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - auth: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      name: "\U0001F1F8\U0001F1ECSG_2 |11.8MB/s|GPT|YT-SG|NF|GM|25%"
+      password: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      port: 12332
+      server: 47.236.104.81
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - auth: wl4HYN9PPKs8d8IzGIt4yKqt0
+      name: "\U0001F1EF\U0001F1F5JP_3 |11.8MB/s|GPT|YT-JP|NF|GM|0%"
+      password: wl4HYN9PPKs8d8IzGIt4yKqt0
+      port: 53348
+      server: 47.74.34.102
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_4 |20.4MB/s|GPT|YT-JP|NF|D+|GM|0%"
+      network: tcp
+      port: "21566"
+      server: dlgdc.thecxfcsp.top
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d77e17d2-8f03-3d1d-aaba-a1aec2e996a3
+    - down: null
+      name: "\U0001F1F9\U0001F1FCTW_1 |11.9MB/s|GPT|YT-TW|NF|GM|8%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 32465
+      ports: 32000-32999
+      server: twgo.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F2\U0001F1FEMY_1 |12.0MB/s|GPT|YT-MY|NF|GM|0%"
+      obfs: ""
+      obfs-password: ""
+      password: 3c4c172f-a5b1-4c20-8cae-1f4431e2502f
+      port: "8899"
+      server: aws-malaysia.6812306.xyz
+      skip-cert-verify: false
+      sni: aws-malaysia.6812306.xyz
+      type: hysteria2
+      up: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_5 |19.0MB/s|GPT|YT-JP|0%"
+      network: ws
+      port: 52512
+      server: aflzzul.meiquankongjian.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+      ws-opts:
+        headers:
+            Host: aflzzul.meiquankongjian.com
+        path: /564dfa20/
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1ECSG_3 |11.3MB/s|GPT|GM|22%"
+      password: amazonskr05
+      port: 443
+      server: 18.142.237.192
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US_6 |9.9MB/s|GPT|50%"
+      network: ws
+      port: 30808
+      server: v8.heduian.link
+      servername: baidu.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: baidu.com
+        path: /oooo
+    - down: null
+      name: "\U0001F1F9\U0001F1FCTW_2 |11.3MB/s|GPT|YT-TW|NF|D+|1%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 33483
+      ports: 33000-33999
+      server: twgo.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_5 |11.2MB/s|YT-HK|NF|25%"
+      obfs: ""
+      obfs-password: ""
+      password: L9ckbqdTsZflCHixBWRV3pm6PWM
+      port: "3317"
+      server: 43.199.76.128
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      up: ""
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1EF\U0001F1F5JP_6 |18.4MB/s|GPT|YT-JP|NF|GM|0%"
+      password: kWlrCka5jzfKbD2z7ucwANEdZM
+      port: 26404
+      server: 47.245.53.59
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1EF\U0001F1F5JP_7 |16.7MB/s|GPT|YT-JP|NF|D+|GM|21%"
+      password: S3zhiAzqWIfRVlqOOqWwVoJnVU
+      port: 9747
+      server: 54.248.198.205
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1F8\U0001F1ECSG_4 |11.6MB/s|GPT|YT-SG|NF|GM|25%"
+      password: TtXjyZgkEG8vdzgLlgMUfxkDYw
+      port: 12332
+      server: 47.236.104.81
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1EF\U0001F1F5JP_8 |10.1MB/s|GPT|YT-JP|NF|GM|26%"
+      password: zO3j18CpknDJ09KzlHN0Gq2lvM
+      port: 19245
+      server: 18.181.145.34
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - auth: ""
+      fast-open: false
+      name: "\U0001F1ED\U0001F1F0HK_6 |11.5MB/s|YT-HK|NF|25%"
+      password: L9ckbqdTsZflCHixBWRV3pm6PWM
+      port: 3317
+      server: 43.199.76.128
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - down: null
+      name: "\U0001F1F8\U0001F1ECSG_5 |10.9MB/s|GPT|YT-SG|GM|6%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 32862
+      ports: 32000-32999
+      server: sggo.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: edge
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_6 |13.5MB/s|GPT|YT-SG|GM|6%"
+      port: 50002
+      reality-opts:
+        public-key: XT6cMKrUh-D9Qbqo9U40HkC05OyJU8QUhW2LdgfKJX0
+        short-id: a49b47047bfb09
+      server: sggo.388898.xyz
+      servername: www.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 747df92c-f03a-4672-aa22-8500ff942eca
+    - down: null
+      name: "\U0001F1F9\U0001F1FCTW_3 |10.6MB/s|GPT|YT-TW|GM|8%"
+      password: 747df92c-f03a-4672-aa22-8500ff942eca
+      port: 31935
+      ports: 31000-31999
+      server: twgo.388898.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: null
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_7 |9.9MB/s|GPT|YT-SG|GM|6%"
+      port: 50000
+      reality-opts:
+        public-key: p6ICgmq0R_CCJuRLnK7bbDGq-8fx1vurz3KexW62CUs
+        short-id: ae8d795a5d24f1
+      server: sggo.388898.xyz
+      servername: www.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 747df92c-f03a-4672-aa22-8500ff942eca
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_8 |9.9MB/s|GPT|YT-SG|GM|6%"
+      port: 50003
+      reality-opts:
+        public-key: 9c1_TZgyB1i_Tvvhe124mj2sn8RmH8TaoFHvrsm8ymo
+        short-id: ed1feb
+      server: sggo.388898.xyz
+      servername: www.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 747df92c-f03a-4672-aa22-8500ff942eca
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_4 |11.1MB/s|GPT|YT-TW|GM|8%"
+      port: 50000
+      reality-opts:
+        public-key: XwVOtnIvHxazOFXOCttEy0rD1bSuu9LMrkIB06c7jSE
+        short-id: a2a511af16
+      server: twgo.388898.xyz
+      servername: www.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 747df92c-f03a-4672-aa22-8500ff942eca
+    - name: "\U0001F1ED\U0001F1F0HK_7 |14.5MB/s|YT-HK|NF|D+|0%"
+      password: 6KxKJp_Lrv6V1_zFRrvHXi41
+      port: 21521
+      server: hkt-ty-line-1.sudatech.store
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_9 |16.5MB/s|GPT|YT-JP|NF|GM|26%"
+      password: 6KxKJp_Lrv6V1_zFRrvHXi41
+      port: 443
+      server: starlink-tko.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_2 |11.9MB/s|GPT|YT-KR|NF|GM|25%"
+      password: 6KxKJp_Lrv6V1_zFRrvHXi41
+      port: 443
+      server: starlink-sol.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_10 |15.2MB/s|GPT|YT-JP|NF|GM|26%"
+      password: dqxLsBV3LitAt8Jwux5IRn7m
+      port: 443
+      server: starlink-tko5.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_11 |14.0MB/s|GPT|YT-JP|NF|GM|25%"
+      password: dqxLsBV3LitAt8Jwux5IRn7m
+      port: 443
+      server: starlink-tko3.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_12 |13.9MB/s|GPT|YT-JP|NF|D+|GM|25%"
+      password: dqxLsBV3LitAt8Jwux5IRn7m
+      port: 443
+      server: starlink-tko.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_3 |13.0MB/s|GPT|YT-KR|NF|GM|23%"
+      password: dqxLsBV3LitAt8Jwux5IRn7m
+      port: 443
+      server: starlink-sol2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
+      udp: true
+    - name: ❓Other_1 |9.7MB/s|GPT|YT-DE|NF
+      password: dqxLsBV3LitAt8Jwux5IRn7m
+      port: 443
+      server: starlink-fra2.2513142.xyz
+      skip-cert-verify: true
+      sni: www.cloudflare.com
+      type: hysteria2
     - down: null
       name: "\U0001F1ED\U0001F1F0HK_1 |14.4MB/s|YT-HK|NF|6%"
       password: 747df92c-f03a-4672-aa22-8500ff942eca
